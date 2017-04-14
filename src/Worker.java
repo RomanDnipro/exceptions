@@ -1,10 +1,6 @@
-import java.io.Closeable;
-import java.io.IOException;
+
 import java.util.Random;
 
-/**
- * Created by Роман on 31.03.2017.
- */
 public class Worker implements AutoCloseable {
 
     public static Random random = new Random();
